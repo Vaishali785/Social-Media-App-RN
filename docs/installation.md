@@ -108,3 +108,32 @@
   npm i --save @fortawesome/free-brands-svg-icons
   npm i --save @fortawesome/free-regular-svg-icons
 - npx react-native run-ios
+
+## Created all the components
+
+## React Navigations
+
+- npm install @react-navigation/native
+- npm install react-native-screens react-native-safe-area-context
+- npx pod-install ios
+- Updated MainActivity.kt(android/app/src/main/java/) file as given in React Navigations docs (https://reactnavigation.org/docs/getting-started/)
+- npm install @react-navigation/stack (https://reactnavigation.org/docs/stack-navigator)
+- npm install react-native-gesture-handler
+- npm install @react-native-masked-view/masked-view
+- npx pod-install ios
+- npx react-native run-ios
+
+# React Drawer Navigator
+
+- npm install @react-navigation/drawer
+- npm install react-native-gesture-handler react-native-reanimated
+- npx pod-install ios
+- Add this in babel.config.js (told by tutor - by her experience)
+  plugins: ['react-native-reanimated/plugin'],
+
+# Tab Navigation
+
+- npm install @react-navigation/material-top-tabs react-native-tab-view
+- npm install react-native-pager-view
+- npx pod-install ios
+- use this to create navigator and screens---> createMaterialTopTabNavigator();
